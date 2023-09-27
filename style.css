@@ -114,7 +114,7 @@ body{
 
 .galContainer{
     justify-content: center;
-    /* padding-left: 20%; */
+    padding-left: 20%;
     width: 90%;
     margin: auto;
 }
