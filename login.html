@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+html{
+
+    font-size: 10px;
+}
+body{
+    font-family: montserrat;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    position: fixed;
+    align-items: center;
+    flex-wrap: wrap;
+    /* background: #d69937; */
+    height: 80px;
+    width: 100%;
+    transition: background-color 0.5s ease-in;
+
+}
+label{
+    color: white;
+    font-size: 35px;
+    line-height: 30px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+nav ul{
+    float: right;
+    margin-right: 30px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 50px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px ;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+a.active,a:hover{
+    background: rgb(141, 39, 39);
+    transition: .5s;
+}
+
+
+
+    </style>
+</head>
+<body  style="background-color: #2E2E2E;">
+    <nav id="navbar" class="navbar">
+        <label class="logo">De<span style="color: rgba(153, 33, 33, 0.615)">v</span>Loc</label>
+        <ul>
+          <li><a href="#section1"> HOME</a></li>
+          <li><a href="#section2"> GALLERY</a></li>
+          <li><a href="#section3"> SERVICES</a></li>
+          <li><a href="#section4">VENUE</a></li>
+          <li><a href="#section5"> INVITATION CARD</a></li>
+          <li><a href="#section6">CONTACT</a></li>
+          
+          <li><a href="#"> LOGIN</a></li>
+          <li><a href="">SIGNUP</a></li>
+        </ul>
+      </nav>
+    
+</body>
+</html>
