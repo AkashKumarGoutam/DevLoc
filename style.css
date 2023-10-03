@@ -216,14 +216,32 @@ input[type=text], select, textarea {
     content: "";
     display: table;
     clear: both;
-  }  
-footer {
+  } 
+  
+  
+/* .container1{
+    width: 400px;
+    height: 400px;
+    background: #001660;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+  footer{
+    background-color: #3e486d;
+
+  }
+.footer-div1 {
     text-align: center;
     padding: 60px;
     height: 200px;
-    background-color: rgb(154, 144, 140);
     color: white;
     font-size: 15px;
+  }
+  .footer-div2{
+    color: white;
+    font-size: 20px;
   }
 
   .venue1{
